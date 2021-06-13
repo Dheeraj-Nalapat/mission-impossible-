@@ -1,13 +1,15 @@
 #include<stdio.h>
+#include<math.h>
 main(){
     int a,b;
     printf("enter a numbers\n");
     scanf("%i",&a);
     b =a;
-    int flag=1,temp,sum=0;
+    int flag=1,temp,sum=0,order;
+    order= (int)log10(a)+1;
      while(a>0){
         temp=a%10;
-        sum += temp*temp*temp;
+        sum += pow(temp,order);
         a=a - temp;
         a = a/10;
     }
