@@ -1,7 +1,7 @@
 #include<stdio.h>
 main(){
     int n,t;
-    printf("enter the number of elements in thee array\n");
+    printf("enter the number of elements in the array\n");
     scanf("%i",&n);
     int a[n],sum=0;
     float avg=0;
