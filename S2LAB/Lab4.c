@@ -2,7 +2,7 @@
 #include<math.h>
 main(){
     int a,b;
-    printf("enter a numbers\n");
+    printf("enter a number\n");
     scanf("%i",&a);
     b =a;
     int flag=1,temp,sum=0,order;
@@ -15,9 +15,9 @@ main(){
     }
     
     if(sum == b){
-    printf("%i is Armstrong\n",b);
+    printf("%i is an Armstrong\n",b);
     }
     else{
-    printf("%i is not Armstrong\n",b);    
+    printf("%i is not an Armstrong\n",b);    
     }
 }
