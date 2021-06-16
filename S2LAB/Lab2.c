@@ -12,5 +12,5 @@ main(){
     else{
        d=c;
     }
-    printf("%i\n",d);
+    printf("%i is the largest number\n",d);
 }
