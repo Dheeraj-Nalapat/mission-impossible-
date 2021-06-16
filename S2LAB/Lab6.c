@@ -1,5 +1,5 @@
 #include<stdio.h>
-main(){
+ main(){
     int n,t;
     printf("enter the number of elements in the array\n");
     scanf("%i",&n);
@@ -12,7 +12,7 @@ main(){
     scanf("%i",&t);
     for(int i=0;i<n;i++){
         if(a[i]==t){
-            printf("element founded at index %i\n",i);
+            printf("element founded at index %i\n and at position %i\n",i,i+1);
         }
     }
 }
