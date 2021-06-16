@@ -74,7 +74,7 @@ void product(int x, int y ,int m, int n, int a[x][y],int b[m][n],int c[x][n]){
       }
    }
 
-   // Multiplying first and second matrices and storing it in result
+   
    for (int i = 0; i < x; ++i) {
       for (int j = 0; j < n; ++j) {
          for (int k = 0; k < m; ++k) {
@@ -110,24 +110,26 @@ scanf("%i",&res);
  // case 2:
 else if(res==2){
       printf("sum of arrays \n"); 
-      /*int k=check(x,y,m,n);
+      int k=check(x,y,m,n);
       if(k==0){
         printf("not addable\n");
-        break;
-      }*/
+        goto label1;
+      }
       sumof(x,y,a,b,c); 
       goto label1;}
 
 //  case 3:
-      /*int k=check1(y,m);
+else if(res==3){
+      int k=check1(y,m);
       if(k==0){
         printf("not addable\n");
-        break;
-      }*/
-    else  if(res==3){
+        goto label1;
+      }
+    else {
       printf("the product of matrices\n");
       product(x,y,m,n,a,b,c);   
       goto label1;}
+}
  // case 4:
 else if(res==4){
       return 0;}       
