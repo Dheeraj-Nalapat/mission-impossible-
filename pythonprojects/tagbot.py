@@ -10,6 +10,8 @@ while True:
             keyboard.write("@")
             for j in range(i):
                 keyboard.send("Down")
+                keyboard.send("Enter+shift")
             keyboard.send("Enter")
+            #keyboard.send("Enter+shift")
             time.sleep(0.05)
         break
