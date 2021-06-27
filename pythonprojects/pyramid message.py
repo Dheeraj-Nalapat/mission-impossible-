@@ -3,7 +3,7 @@ import time
 x=""
 time.sleep(3)
 
-for i in range(10):
+for i in range(15):
      x=x+"."
      keyboard.write(x)
      keyboard.send('Enter')
