@@ -9,7 +9,8 @@ while True:
         for i in range(n_members):
             keyboard.write("@")
             for j in range(i):
-                keyboard.send("Down")
+                keyboard.send("Down")    
             keyboard.send("Enter")
+            keyboard.write("                                            ")
             time.sleep(0.05)
         break

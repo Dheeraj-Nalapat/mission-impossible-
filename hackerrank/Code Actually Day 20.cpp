@@ -5,7 +5,6 @@
 #include <algorithm>
 using namespace std;
 
-
 void group(int a[],int n,int i){
     int flag=1;
      int b[i];
