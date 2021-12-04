@@ -1,0 +1,6 @@
+pen
+ball
+mat
+bell
+num
+banana

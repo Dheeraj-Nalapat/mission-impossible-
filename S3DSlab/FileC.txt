@@ -1,0 +1,7 @@
+pen : 1
+ball : 2
+mat : 2
+bell : 0
+num : 3
+banana : 1
+ 
