@@ -1,7 +1,11 @@
 import keyboard
 import time
+import pandas as pd
 
-members = ["dheeraj","michele","toby","krishnaprasadh"]
+df = pd.read_excel (r'\File name.xlsx')
+print (df)
+
+members = ["dheerajnalapat3@gmail.com","b20cs082@mace.ac.in","nalapatdheeraj@gmail.com"]
 while True:
     if keyboard.is_pressed('x'):
         keyboard.send("Backspace")
